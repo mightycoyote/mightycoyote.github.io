@@ -1,1 +1,1 @@
-# primo-mightycoyote.github.io
+# Built with [primo](https://primo.af)
