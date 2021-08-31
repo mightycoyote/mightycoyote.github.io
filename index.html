@@ -13,13 +13,17 @@
         
       <div class="block" id="block-rrxee">
         <div class="primo-component" id="component-rrxee">
-          <div><section class="primo-copy">
+          <div><section id="about" class="primo-copy">
 	<h1 class="visually-hidden">About Me</h1>
-  <img src={featured_image.src} alt={featured_image.alt} />
-	<p><span>Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some content strategy background.</p>
-	<p>Find me on <a href="#">LinkedIn</a> and <a href="#">Twitter</a>.</p>
+  <figure>
+  	<img id="mepic" src='./assets/IMG_6588%20even%20smaller%20%20square.jpeg' alt="Sarah Wilkes" />
+  </figure>
+  <div id="intro">
+ 	 	<p><span>Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some content strategy background.</p>
+		<p>Find me on <a href="#">LinkedIn</a> and <a href="#">Twitter</a>.</p>
+  </div>
 </section>
-<section class="primo-copy">
+<section id="projects" class="primo-copy">
   <h2>Projects</h2>
   <ul>
     <li>A <a href="#">page about yoyos</a> I made using Create-React-App and Tailwind.</li>
@@ -28,7 +32,31 @@
   </ul> </div>
           
         </div>
-        
+        <style type="text/css">#component-rrxee #mepic {
+    margin: 0 auto;
+  }
+  #component-rrxee figure {
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 640px) {
+    #component-rrxee #mepic {
+      max-width: 15rem;
+      border-radius: 50%;
+    }
+
+    #component-rrxee figure {
+      margin-bottom: 0;
+    }
+
+    #component-rrxee #about {
+      display: flex;
+      align-items: center;
+    }
+
+    #component-rrxee #intro {
+      padding-left: 3rem;
+    }
+  }</style>
       </div>
       
         
