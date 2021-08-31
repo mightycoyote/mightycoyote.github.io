@@ -599,7 +599,19 @@ video {
 
 body {
   --primary-verydark: #16063A;
+  --secondary-verylight: #9C73A9;
   background-color: var(--primary-verydark);
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .primo-copy {
@@ -641,7 +653,7 @@ body {
   }
 
 .primo-copy a {
-    color: #1c64f2;
+    color: var(--secondary-verylight);
     text-decoration: underline;
   }
 
@@ -657,6 +669,13 @@ body {
     --bg-opacity: 1;
     background-color: #fce96a;
   }
+
+@media (min-width: 640px) {
+  .primo-copy {
+    width: 80%;
+    max-width: 1400px;
+  }
+}
 
 @media (min-width: 1024px) {
   .primo-copy h1 {
