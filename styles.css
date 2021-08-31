@@ -597,10 +597,14 @@ video {
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital@0;1&display=swap');
+
 body {
   --primary-verydark: #16063A;
-  --secondary-verylight: #9C73A9;
-  background-color: var(--primary-verydark);
+  --secondary1-verylight: #9C73A9;
+  --secondary1: #5F2871;
+  --secondary1-verydark: #2B0238;
+  background-color: AliceBlue;
 }
 
 .visually-hidden {
@@ -619,8 +623,9 @@ body {
   width: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
+  font-family: 'Lato', sans-serif;
   font-size: 1.125rem;
-  color: white;
+  color: var(--primary-verydark);
 }
 
 .primo-copy h1 {
@@ -631,6 +636,11 @@ body {
 .primo-copy h2 {
     font-size: 1.5rem;
     font-weight: 500;
+    padding: 2rem 0 1rem 0;
+  }
+
+.primo-copy h1, .primo-copy h2 {
+    font-family: 'Libre Baskerville', serif;
   }
 
 .primo-copy ol {
@@ -643,17 +653,17 @@ body {
     list-style-position: outside;
   }
 
-.primo-copy p {
-    display: block;
+.primo-copy li {
+    padding: .2rem;
   }
 
-.primo-copy ol {
-    list-style-type: decimal;
-    list-style-position: inside;
+.primo-copy p {
+    display: block;
+    padding: .5rem 0;
   }
 
 .primo-copy a {
-    color: var(--secondary-verylight);
+    color: var(--secondary1);
     text-decoration: underline;
   }
 
