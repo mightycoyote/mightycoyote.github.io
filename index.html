@@ -14,7 +14,7 @@
       <div class="block" id="block-rrxee">
         <div class="primo-component" id="component-rrxee">
           <div><div id="grid">
-	<main id="main">
+	<main>
   	<section id="about" class="primo-copy">
     	<h1 class="visually-hidden">About Me</h1>
       <figure>
@@ -76,18 +76,15 @@ figure {
     padding-left: 3rem;
   }
 
-  #grid {
-    display: grid;
-  }
+  @media (min-height: 40rem) {
+    footer {
+      background: linear-gradient(aliceblue, var(--primary-light));
+    }
 
-  #main {
-    height: 90vh;
-  }
-
-  footer {
-    margin-top: 1rem;
-    height: 10vh;
-    background: linear-gradient(aliceblue, var(--primary-light));
+    #grid {
+      display: grid;
+      grid-template-rows: 90vh 10vh;
+    }
   }
 }</style>
       </div>
