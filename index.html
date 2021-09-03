@@ -37,56 +37,57 @@
 </div>    </div>
           
         </div>
-        <style type="text/css">#component-rrxee {
-}
-
-#hi {
-  font-size: 2.5rem;
-  display: block;
-  font-family: 'Libre Baskerville', serif;
-  color: var(--primary-dark);
-}
-
-#mepic {
-  margin: 0 auto;
-}
-
-figure {
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 640px) {
-  #mepic {
+        <style type="text/css">#component-rrxee main {
+    padding-top: 2rem;
+  }
+  #component-rrxee footer {
+    padding-bottom: 3rem;
+  }
+  #component-rrxee #hi {
+    font-size: 2.5rem;
+    display: block;
+    font-family: 'Lobster Two', cursive;
+    color: var(--primary-dark);
+  }
+  #component-rrxee #mepic {
+    margin: 0 auto;
     max-width: 15rem;
     border-radius: 50%;
     border: 5px solid var(--primary-dark);
   }
-
-  figure {
-    padding-bottom: 0;
+  #component-rrxee figure {
+    padding-bottom: 2rem;
   }
-
-  #about {
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-  }
-
-  #intro {
-    padding-left: 3rem;
-  }
-
-  @media (min-height: 40rem) {
-    footer {
-      background: linear-gradient(aliceblue, var(--primary-light));
+  @media (min-width: 640px) {
+    #component-rrxee main {
+      max-width: 1350px;
+      margin: 0 auto;
     }
 
-    #grid {
-      display: grid;
-      grid-template-rows: 90vh 10vh;
+    #component-rrxee figure {
+      padding-bottom: 0;
     }
-  }
-}</style>
+
+    #component-rrxee #about {
+      display: flex;
+      align-items: center;
+    }
+
+    #component-rrxee #intro {
+      padding-left: 3rem;
+    }
+
+    @media (min-height: 40rem) {
+      #component-rrxee #grid {
+        background: linear-gradient(aliceblue 90%, var(--primary-light));
+        height: 100vh;
+      }
+
+      #component-rrxee footer {
+        padding-bottom: 5rem;
+      }
+    }
+  }</style>
       </div>
       
         

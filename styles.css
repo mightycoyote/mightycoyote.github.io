@@ -601,7 +601,7 @@ video {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lobster+Two&display=swap');
 
 body {
   --primary-verylight: #8B7AAE;
@@ -660,7 +660,7 @@ img {
   }
 
 .primo-copy h1, .primo-copy h2 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster Two', cursive;
     color: var(--primary-dark);
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
   }
