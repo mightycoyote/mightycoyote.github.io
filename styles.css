@@ -685,12 +685,12 @@ img {
   }
 
 .primo-copy a {
-    color: var(--secondary2);
+    color: var(--secondary2-light);
     text-decoration: underline;
   }
 
 .primo-copy a:visited {
-    color: var(--primary);
+    color: var(--primary-light);
   }
 
 .primo-copy a:hover {
