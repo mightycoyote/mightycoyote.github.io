@@ -518,6 +518,10 @@ video {
   display: table;
 }
 
+.grid {
+  display: grid;
+}
+
 * {
   --tw-shadow: 0 0 rgba(0,0,0,0);
 }
@@ -658,6 +662,7 @@ img {
 .primo-copy h1, .primo-copy h2 {
     font-family: 'Libre Baskerville', serif;
     color: var(--primary-dark);
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
   }
 
 .primo-copy ol {

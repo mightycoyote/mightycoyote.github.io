@@ -13,52 +13,83 @@
         
       <div class="block" id="block-rrxee">
         <div class="primo-component" id="component-rrxee">
-          <div><section id="about" class="primo-copy">
-	<h1 class="visually-hidden">About Me</h1>
-  <figure>
-  	<img id="mepic" src='./assets/IMG_6588%20even%20smaller%20%20square.jpeg' alt="Sarah Wilkes" />
-  </figure>
-  <div id="intro">
- 	 	<p><span>Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some content strategy background.</p>
-		<p>Find me on <a href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a> and <a href="https://twitter.com/Sarah_Wilkes">Twitter</a>.</p>
-  </div>
-</section>
-<section id="projects" class="primo-copy">
-  <h2>Projects</h2>
-  <ul>
-    <li>A <a href="#">page about yoyos</a> I made to try out Create-React-App and Tailwind.</li>
-    <li>The HTML and CSS for a soon-to-be-released theme in the <a href="https://primo.af">Primo</a> sitebuilder, from a design comp. The page you're reading now was also built and deployed with Primo.</li>
-    <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content migration and CMS documentation for the <a href="https://www.vcom.edu">Edward Via College of Osteopathic Medicine (VCOM)</a> and built the content types in Drupal for <a href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona College</a> (among other things).</li>
-  </ul> </div>
+          <div><div id="grid">
+	<main id="main">
+  	<section id="about" class="primo-copy">
+    	<h1 class="visually-hidden">About Me</h1>
+      <figure>
+      	<img id="mepic" src='./assets/IMG_6588%20even%20smaller%20%20square.jpeg' alt="Sarah Wilkes" />
+      </figure>
+      <div id="intro">
+     	 	<p><span id="hi">Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some content strategy background.</p>
+    		<p>Find me on <a href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a> and <a href="https://twitter.com/Sarah_Wilkes">Twitter</a>.</p>
+      </div>
+    </section>
+    <section id="projects" class="primo-copy">
+      <h2>Projects</h2>
+      <ul>
+        <li>A <a href="#">page about yoyos</a> I made to try out Create-React-App and Tailwind.</li>
+        <li>The HTML and CSS for a soon-to-be-released theme in the <a href="https://primo.af">Primo</a> sitebuilder, from a design comp. The page you're reading now was also built and deployed with Primo.</li>
+        <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content migration and CMS documentation for the <a href="https://www.vcom.edu">Edward Via College of Osteopathic Medicine (VCOM)</a> and built the content types in Drupal for <a href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona College</a> (among other things).</li>
+      </ul>
+  </main>
+  <footer />
+</div>    </div>
           
         </div>
-        <style type="text/css">#component-rrxee #mepic {
-    margin: 0 auto;
+        <style type="text/css">#component-rrxee {
+}
+
+#hi {
+  font-size: 2.5rem;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  color: var(--primary-dark);
+}
+
+#mepic {
+  margin: 0 auto;
+}
+
+figure {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  #mepic {
+    max-width: 15rem;
+    border-radius: 50%;
+    border: 5px solid var(--primary-dark);
   }
-  #component-rrxee figure {
-    padding-bottom: 2rem;
+
+  figure {
+    padding-bottom: 0;
   }
-  @media (min-width: 640px) {
-    #component-rrxee #mepic {
-      max-width: 15rem;
-      border-radius: 50%;
-      border: 5px solid var(--primary-dark);
-    }
 
-    #component-rrxee figure {
-      padding-bottom: 0;
-    }
+  #about {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+  }
 
-    #component-rrxee #about {
-      display: flex;
-      align-items: center;
-      padding-top: 2rem;
-    }
+  #intro {
+    padding-left: 3rem;
+  }
 
-    #component-rrxee #intro {
-      padding-left: 3rem;
-    }
-  }</style>
+  #grid {
+    display: grid;
+  }
+
+  #main {
+    height: 90vh;
+  }
+
+  footer {
+    margin-top: 1rem;
+    height: 10vh;
+    background: linear-gradient(aliceblue, var(--primary-light));
+  }
+}</style>
       </div>
       
         
