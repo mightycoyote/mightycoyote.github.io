@@ -601,7 +601,7 @@ video {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Patua+One&display=swap');
 
 body {
   --primary-verylight: #8B7AAE;
@@ -660,7 +660,7 @@ img {
   }
 
 .primo-copy h1, .primo-copy h2, .primo-copy .hi {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Patua One', cursive;
     color: var(--primary-dark);
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
   }
