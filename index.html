@@ -1,107 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
 
-    <!doctype html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./styles.css" />
-        
-        
-        <title>About</title>
-<meta name="description" content="Web developer, content nerd, yoyo enthusiast."/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Patua+One&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/favicon.ico">
-      </head>
-      <body data-instant-intensity="all" class="primo-page">   
-        
-      <div class="block" id="block-rrxee">
-        <div class="primo-component" id="component-rrxee">
-          <div><div id="grid">
-	<main class="primo-copy">
-  	<section id="about">
-    	<h1 class="visually-hidden">About Me</h1>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Patua+One&display=swap"
+    rel="stylesheet">
+  <title>About</title>
+</head>
+
+<body>
+  <main>
+    <section id="about">
+      <h1 class="visually-hidden">About Me</h1>
       <figure>
-      	<img id="mepic" src='./assets/IMG_6588_square_web.jpg' alt="Sarah Wilkes" />
+        <img id="mepic" src='./images/IMG_6588_square_web.jpg' alt="Sarah Wilkes" />
       </figure>
       <div id="intro">
-     	 	<p><span class="hi">Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some content strategy background.</p>
-    		<p>Find me on <a href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a> and <a href="https://twitter.com/Sarah_Wilkes">Twitter</a>.</p>
+        <p><span class="hi">Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some
+          content strategy background.</p>
+        <p>Find me on <a href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a> and <a
+            href="https://twitter.com/Sarah_Wilkes">Twitter</a>.</p>
       </div>
     </section>
     <section id="projects">
       <h2>Projects</h2>
       <ul>
-        <li>A <a href="https://infyo.me/">page about yoyos</a> I made to try out Create-React-App and Tailwind.</li>
-        <li>The HTML and CSS for a soon-to-be-released theme in the <a href="https://primo.af">Primo</a> sitebuilder, from a design comp. The page you're reading now was also built and deployed with Primo.</li>
-        <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content migration and CMS documentation for the <a href="https://www.vcom.edu">Edward Via College of Osteopathic Medicine (VCOM)</a> and built the content types for <a href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona College</a> (among other things). These are both Drupal sites.</li>
+        <li><a href="https://infyo.me/">Infyo.me</a>, a page about yoyos that I made while experimenting with
+          Create-React-App and Tailwind. The source code for it, and the page you're reading now, are viewable in
+          <a href="https://github.com/mightycoyote">GitHub</a>.
+        </li>
+        <li>This simple <a href="https://codepen.io/mightycoyote/pen/dyJGVqJ">"pomodoro" (25 minute) timer</a> in
+          vanilla JS.</li>
+        <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content migration and CMS
+          documentation for the <a href="https://www.vcom.edu">Edward Via College of Osteopathic Medicine (VCOM)</a> and
+          built the content types for <a href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona
+            College</a> (among other things). These are both Drupal sites.</li>
       </ul>
+    </section>
   </main>
-  <footer />
-</div>    </div>
-          
-        </div>
-        <style type="text/css">#component-rrxee main {
-    padding-top: 2rem;
-  }
-  #component-rrxee footer {
-    padding-bottom: 3rem;
-  }
-  #component-rrxee .hi {
-    display: block;
-  }
-  #component-rrxee #mepic {
-    margin: 0 auto;
-    max-width: 15rem;
-    border-radius: 50%;
-    border: 5px solid var(--primary-dark);
-  }
-  #component-rrxee figure {
-    padding-bottom: 2rem;
-  }
-  @media (min-width: 640px) {
-    #component-rrxee main {
-      max-width: 1350px;
-      margin: 0 auto;
-    }
 
-    #component-rrxee figure {
-      padding-bottom: 0;
-    }
+  <footer></footer>
+  <!-- <div id="app"></div>
+  <script type="module" src="/main.js"></script> -->
+</body>
 
-    #component-rrxee #about {
-      display: flex;
-      align-items: center;
-    }
-
-    #component-rrxee #intro {
-      padding-left: 3rem;
-    }
-
-    @media (min-height: 54rem) {
-      #component-rrxee #grid {
-        background: linear-gradient(aliceblue 90%, var(--primary-light));
-        height: 100vh;
-      }
-
-      #component-rrxee footer {
-        padding-bottom: 5rem;
-      }
-    }
-  }
-  @media (min-width: 768px) {
-    @media (min-height: 40rem) {
-      #component-rrxee #grid {
-        background: linear-gradient(aliceblue 90%, var(--primary-light));
-        height: 100vh;
-      }
-    }
-  }</style>
-      </div>
-      
-        
-        
-      </body>
-    </html>
-  
+</html>
