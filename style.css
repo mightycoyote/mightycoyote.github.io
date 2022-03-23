@@ -393,6 +393,12 @@ p {
 a {
     color: var(--secondary2-light);
     text-decoration: underline;
+    /* &:visited {
+      color: var(--primary-light);
+    }
+    &:hover {
+      color: var(--secondary1-light);
+    } */
 }
 
 a:visited {
