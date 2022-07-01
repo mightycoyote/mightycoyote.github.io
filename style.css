@@ -7,7 +7,7 @@
   margin-top: 60px;
 } */
 
-/* reset */
+/* CSS RESET */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -308,7 +308,7 @@ summary {
 	display: list-item;
 }
 
-/* custom css begins here  */
+/* CUSTOM CSS BEGINS HERE  */
 
 body {
   --primary-verylight: #8B7AAE;
@@ -415,7 +415,7 @@ a:hover {
 
 #mepic {
   margin: 0 auto;
-  max-width: 15rem;
+  max-width: 10rem;
   border-radius: 50%;
   border: 5px solid var(--primary-dark);
 }
