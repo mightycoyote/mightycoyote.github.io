@@ -2,58 +2,68 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="images/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Patua+One&display=swap"
-    rel="stylesheet">
-  <title>About</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" />
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <main>
-    <section id="about">
-      <h1 class="visually-hidden">About Me</h1>
-      <figure>
-        <img id="mepic" src='./images/IMG_6588_square_web.jpg' alt="Sarah Wilkes" />
-      </figure>
-      <div id="intro">
-        <p><span class="hi">Hi, </span>I'm Sarah Wilkes, a mostly self- and online-taught web developer with some
-          content strategy background.</p>
-        <p>Find me on <a href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a> and <a
-            href="https://github.com/mightycoyote">GitHub</a>.</p>
-      </div>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Ongoing projects/challenges from <a href="https://www.frontendmentor.io/profile/mightycoyote">Frontend
-            Mentor</a>. These have proven to be much better and more realistic practice than making designs up on my
-          own.
-          (You can also get to them through my <a href="https://github.com/mightycoyote">GitHub repo</a>.)</li>
-        <li><a href="https://infyo.me/">Infyo.me</a>, a page about yoyos that I made while experimenting with
-          Create-React-App and Tailwind. The <a href="https://github.com/mightycoyote/INFyO">source code</a>, and
-          <a href="https://github.com/mightycoyote/mightycoyote.github.io">the source code for the page you're reading
-            now</a>, are also
-          public in
-          GitHub.
-        </li>
-        <li>This simple <a href="https://codepen.io/mightycoyote/pen/dyJGVqJ">"pomodoro" (25 minute) timer</a> in
-          vanilla JS.</li>
-        <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content migration and CMS
-          documentation for the <a href="https://www.vcom.edu">Edward Via College of Osteopathic Medicine (VCOM)</a> and
-          built the content types for <a href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona
-            College</a> (among other things). These are both Drupal sites.</li>
-      </ul>
-    </section>
-  </main>
+    <div class="wrapper">
+        <header class="grids">
+            <div class="flow-margin">
+                <h1 class="visually-hidden">About me</h1>
+                <p class="intro"><span class="hi">Hi,</span>I'm Sarah Wilkes, a frontend web developer with a background
+                    in content strategy, nonprofits, and higher ed.</p>
+            </div>
+            <div class="box image-box">
+                <div class="image">
+                    <img src="./images/Sarah_octocat.png" alt="Github 'octocat' avatar">
+                </div>
+                <p class="under-image">Find me on <a href="https://github.com/mightycoyote">GitHub</a> and <a
+                        href="https://www.linkedin.com/in/sarah-wilkes-5560aaa8">LinkedIn</a>.</p>
+            </div>
+        </header>
 
-  <footer></footer>
-  <!-- <div id="app"></div>
-  <script type="module" src="/main.js"></script> -->
+        <main>
+            <h2>Work</h2>
+            <div class="grids">
+                <ul class="flow-margin">
+                    <li><a href="https://infyo.me/">Infyo.me</a>, a page about yoyos that I made while trying out
+                        Create-React-App and Tailwind. The <a href="https://github.com/mightycoyote/INFyO">source
+                            code</a> is also public in GitHub.</li>
+                    <li>An increasing number of projects in FrontendMentor, for example this <a
+                            href="https://www.frontendmentor.io/solutions/responsive-landing-page-with-scss-vite-2XkWFZjO_G">elearning
+                            program landing page</a> and this <a
+                            href="https://www.frontendmentor.io/solutions/interactive-rating-component-with-html-radio-buttons-7M2t1ellp7">interactive
+                            rating component</a>.</li>
+                    <li>This simple <a href="https://codepen.io/mightycoyote/pen/dyJGVqJ">"pomodoro" (25 minute)
+                            timer</a> in vanilla JS.</li>
+                    <li>While I was at <a href="https://www.insidenewcity.com">NewCity</a>, I worked on content
+                        migration and CMS documentation for the <a href="https://www.vcom.edu">Edward Via College of
+                            Osteopathic Medicine (VCOM)</a> and built the content types for <a
+                            href="https://www.pomona.edu/museum/">The Benton Museum of Art at Pomona College</a> (among
+                        other things). These are both Drupal sites.</li>
+                </ul>
+                <div class="box text-box">
+                    <h3>{Frontendmentor.io}</h3>
+                    <p>Recently I've been using FrontendMentor for additional practice building out web pages from
+                        comps. My completed projects are available via my <a
+                            href="https://www.frontendmentor.io/profile/mightycoyote">FrontendMentor profile</a> or
+                        <a href="https://github.com/mightycoyote">Github</a>.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+    </div>
 </body>
 
 </html>
